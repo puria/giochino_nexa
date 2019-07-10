@@ -13,11 +13,11 @@ advanced_preconditions:
 auto_generated: false
 description: null
 entity: document
-hash: kd869e3da54ec
-html: 'Ciao #{k627d4a4f7d0f}#{kb7f160ef6e15}#{k50b0cd40c72f}#{k511bf16e34c1}#{kac5c231b0f96},
+hash: k55a1f712a8fc
+html: 'Ciao #{k7afbaa51448c}#{ke4219c140ad1} #{k627d4a4f7d0f}#{kb7f160ef6e15}#{k50b0cd40c72f}#{k511bf16e34c1}#{kac5c231b0f96},
 
 
-  vedo che sei #{k190180ceb512}'
+  vedo che sei #{k190180ceb512}.'
 license: null
 outputs:
   k190180ceb512:
@@ -52,6 +52,14 @@ outputs:
     public: true
     title: carlo
     visible: true
+  k7afbaa51448c:
+    _precondition: k5d8d8d8083eb
+    entity: output
+    hash: k7afbaa51448c
+    html: carissimo
+    public: true
+    title: carissimo
+    visible: true
   kac5c231b0f96:
     _precondition: k44657f25121f
     entity: output
@@ -67,6 +75,14 @@ outputs:
     html: Angelo Raffaele
     public: true
     title: meo
+    visible: true
+  ke4219c140ad1:
+    _precondition: kc452acf4b3e2
+    entity: output
+    hash: ke4219c140ad1
+    html: carissima
+    public: true
+    title: carissima
     visible: true
 public: true
 qa:
