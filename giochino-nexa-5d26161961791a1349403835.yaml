@@ -1,0 +1,214 @@
+advanced_preconditions:
+  k5a051e32e28d:
+    condition:
+    - k5d8d8d8083eb
+    - or
+    - kc452acf4b3e2
+    entity: precondition/advanced
+    hash: k5a051e32e28d
+    public: true
+    title: "genere \u21D2 was compiled"
+    type: advanced
+    visible: true
+auto_generated: false
+description: null
+entity: document
+hash: kd869e3da54ec
+html: 'Ciao #{k627d4a4f7d0f}#{kb7f160ef6e15}#{k50b0cd40c72f}#{k511bf16e34c1}#{kac5c231b0f96},
+
+
+  vedo che sei #{k190180ceb512}'
+license: null
+outputs:
+  k190180ceb512:
+    _precondition: k5a051e32e28d
+    entity: output
+    hash: k190180ceb512
+    html: '@{kdf3fe3d62850}'
+    public: true
+    title: "genere \u21D2 output"
+    visible: true
+  k50b0cd40c72f:
+    _precondition: ke7671277331c
+    entity: output
+    hash: k50b0cd40c72f
+    html: Marco
+    public: true
+    title: marco
+    visible: true
+  k511bf16e34c1:
+    _precondition: kc452acf4b3e2
+    entity: output
+    hash: k511bf16e34c1
+    html: Elena
+    public: true
+    title: elena
+    visible: true
+  k627d4a4f7d0f:
+    _precondition: kb6d70e8572d3
+    entity: output
+    hash: k627d4a4f7d0f
+    html: Carlo
+    public: true
+    title: carlo
+    visible: true
+  kac5c231b0f96:
+    _precondition: k44657f25121f
+    entity: output
+    hash: kac5c231b0f96
+    html: Giovanni
+    public: true
+    title: giovanni
+    visible: true
+  kb7f160ef6e15:
+    _precondition: k0bcd88d1ef89
+    entity: output
+    hash: kb7f160ef6e15
+    html: Angelo Raffaele
+    public: true
+    title: meo
+    visible: true
+public: true
+qa:
+  k3c5cde41881d:
+    _parent_precondition: k5d8d8d8083eb
+    answers:
+    - "S\xEC"
+    - 'No'
+    entity: qa
+    hash: k3c5cde41881d
+    link: null
+    public: true
+    question: Porti gli occhiali?
+    title: glasses
+    tooltip: null
+    type: single
+    visible: true
+  ka2aa1cb16270:
+    _parent_precondition: kaca6e3c53147
+    answers:
+    - "S\xEC"
+    - 'No'
+    entity: qa
+    hash: ka2aa1cb16270
+    link: null
+    public: true
+    question: Porti la cravatta
+    title: Tie
+    tooltip: null
+    type: single
+    visible: true
+  kcafcfec35483:
+    _parent_precondition: ke755d3417885
+    answers:
+    - "S\xEC"
+    - 'No'
+    entity: qa
+    hash: kcafcfec35483
+    link: null
+    public: true
+    question: Porti l'orologio?
+    title: watch
+    tooltip: null
+    type: single
+    visible: true
+  kdf3fe3d62850:
+    _parent_precondition: null
+    answers:
+    - uomo
+    - donna
+    entity: qa
+    hash: kdf3fe3d62850
+    link: null
+    public: true
+    question: Sei un uomo o una donna?
+    title: genere
+    tooltip: null
+    type: single
+    visible: true
+simple_preconditions:
+  k0bcd88d1ef89:
+    condition:
+    - ka2aa1cb16270
+    - 'No'
+    entity: precondition/simple
+    hash: k0bcd88d1ef89
+    public: true
+    title: "Tie \u21D2 No"
+    type: simple
+    visible: true
+  k44657f25121f:
+    condition:
+    - kcafcfec35483
+    - "S\xEC"
+    entity: precondition/simple
+    hash: k44657f25121f
+    public: true
+    title: "watch \u21D2 S\xEC"
+    type: simple
+    visible: true
+  k5d8d8d8083eb:
+    condition:
+    - kdf3fe3d62850
+    - uomo
+    entity: precondition/simple
+    hash: k5d8d8d8083eb
+    public: true
+    title: "genere \u21D2 uomo"
+    type: simple
+    visible: true
+  kaca6e3c53147:
+    condition:
+    - k3c5cde41881d
+    - 'No'
+    entity: precondition/simple
+    hash: kaca6e3c53147
+    public: true
+    title: "glasses \u21D2 No"
+    type: simple
+    visible: true
+  kb6d70e8572d3:
+    condition:
+    - ka2aa1cb16270
+    - "S\xEC"
+    entity: precondition/simple
+    hash: kb6d70e8572d3
+    public: true
+    title: "Tie \u21D2 S\xEC"
+    type: simple
+    visible: true
+  kc452acf4b3e2:
+    condition:
+    - kdf3fe3d62850
+    - donna
+    entity: precondition/simple
+    hash: kc452acf4b3e2
+    public: true
+    title: "genere \u21D2 donna"
+    type: simple
+    visible: true
+  ke755d3417885:
+    condition:
+    - k3c5cde41881d
+    - "S\xEC"
+    entity: precondition/simple
+    hash: ke755d3417885
+    public: true
+    title: "glasses \u21D2 S\xEC"
+    type: simple
+    visible: true
+  ke7671277331c:
+    condition:
+    - kcafcfec35483
+    - 'No'
+    entity: precondition/simple
+    hash: ke7671277331c
+    public: true
+    title: "watch \u21D2 No"
+    type: simple
+    visible: true
+status: null
+tags: []
+title: Giochino Nexa
+version: null
+visible: true
